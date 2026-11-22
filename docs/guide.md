@@ -20,4 +20,4 @@
 
 ## 自动部署原理
 
-当代码推送到 main 分支时，GitHub Actions 会执行自动构建任务，并通过 GitHub Pages 发布网站。
+当 docs/、mkdocs.yml、requirements.txt 或部署工作流的修改推送到 main 分支时，GitHub Actions 会自动构建并发布网站。只修改报告或根目录 README 不触发部署；也可以在 Actions 页面手动运行工作流。
